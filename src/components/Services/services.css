@@ -1,0 +1,88 @@
+
+.contain{
+    display: flex;
+     justify-content: space-between;
+     width: 90%;
+     margin: auto;
+     padding-top: 102px;
+}
+
+.contain .right{
+    width: 30%; 
+}
+
+
+.contain .div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: start;
+    position: sticky !important;
+    top: 30px;
+
+}
+
+.contain .div .title{
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+}
+
+.contain .div .para{
+    font-size: 14px;
+    font-weight: 400;
+    color: #B1B1B1;
+    text-align: start;
+}
+
+.contain .div .btn{
+    background-color: #161C27;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.contain1{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 60%;
+}
+
+.contain1 .div1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #171717f7;
+    padding: 20px 40px;
+    border: 2px solid #dad9d918;
+    border-radius: 5px;
+    align-items: start;
+    position: sticky;
+    top: 30px;
+}
+
+.contain1 .div1 .title1{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.contain1 .div1 .para1{
+    font-size: 12px;
+    font-weight: 400;
+    color: #B1B1B1;
+    text-align: start;
+}
+
+.contain1 .div1 .btn1{
+    font-size: 12px;
+    font-weight: 700;
+    color: #14A2F1;
+}
+
+
+.contain1 .div1 img{
+    width: 40px;
+}

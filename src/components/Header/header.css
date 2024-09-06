@@ -1,0 +1,25 @@
+.container1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 12px;
+}
+
+.container1 .div2{
+    display: flex;
+    align-items: center;
+     gap: 22px;
+     list-style: none;
+     color: white;
+}
+
+.container1 .div3 button{
+    padding: 10px 20px;
+    background-color: #14A2F1;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+

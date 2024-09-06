@@ -1,0 +1,32 @@
+.logos {
+    overflow-x: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+    background: #b7b7b71c;
+    padding: 10px 20px;
+  }
+  
+  .logo-slide {
+    display: flex; 
+    align-items: center;
+    gap: 42px;
+    animation: slide 12s infinite linear;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logo-slide img {
+    width: 200px;
+  }
+
+  .logo-slide:hover{
+    animation-play-state: paused;
+  }
+  
