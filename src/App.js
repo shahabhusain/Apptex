@@ -11,8 +11,10 @@ function App() {
   return (
     <div className="App">
       <ParticlesComponent id="particles" />
+      <div className='back'>
       <Header />
       <Home />
+      </div>
       <Projects />
       <Services />
       <About />
