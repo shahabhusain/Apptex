@@ -1,14 +1,8 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
-// import required modules
 import { Pagination } from 'swiper/modules';
-
 import "./recent.css";
 import logo from '../../assets/plogo.png'
 import right from '../../assets/pro1.png'
@@ -21,7 +15,12 @@ const RecentWork = () => {
         Your Partner <span className="span">in</span>{" "}
         <span className=" span1">Digital Evolution</span>
       </h1>
-       <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+       <Swiper spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper">
         <SwiperSlide>
         <div className="Containerr">
      
@@ -66,6 +65,13 @@ const RecentWork = () => {
 
        <img src={right} alt="" />
    </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <div className="Containerrr">
+            <h3><button>View More Project</button></h3>
+ 
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>

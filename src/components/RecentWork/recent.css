@@ -76,18 +76,18 @@ padding-top: 30px;
 {
     color: white;
     background: beige;
-    width: 30%;
+    width: 20%;
     background: white;
-    height: 8px;
+    height: 6px;
     border-radius: 0px;
-    margin-left: 8px !important;
+    margin-left: 4px !important;
     border-radius: 20px;
     
 }
 .swiper-pagination-bullet-active{
   background-color: #14A2F1;
    border-radius: 20px;
-   width: 30%;
+   width: 20%;
    
    color: white;
 }
@@ -95,4 +95,30 @@ padding-top: 30px;
     width: 84% !important;
     left: 110px !important;
     
+}
+
+
+.Containerrr h3 button{
+    padding: 15px 30px;
+    border: 2px solid #14A2F1;
+    border-radius: 50px;
+    color: #14A2F1;
+    font-size: 17px;
+    font-weight: 700;
+    background: transparent; 
+    margin-top: 200px;
+    margin-bottom: 200px;
+    cursor: pointer;
+   
+}
+
+.Containerrr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717f7;
+    width: 80%;
+    margin: auto;
+    border: 2px solid #dad9d918;
+    border-radius: 20px;
 }
