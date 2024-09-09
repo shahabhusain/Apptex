@@ -1,0 +1,98 @@
+.Containerr{
+ display: flex;
+ justify-content: space-between;
+ background-color: #171717f7;
+ width: 80%;
+ margin: auto;
+ border: 2px solid #dad9d918;
+ border-radius: 20px;
+margin-bottom: 33px;
+}
+
+.boxx .title {
+   font-size: 48px;
+   font-weight: 400;
+   color: white;
+
+}
+
+.boxx .title .span{
+   font-weight: 700;
+}
+
+.boxx .title .span1 {
+    color: #14A2F1;
+    font-weight: 700;
+}
+
+.boxx .recent{
+   font-size: 24px;
+   font-weight: 700;
+   color: #B1B1B1;
+   margin-top: 122px;
+}
+
+.Containerr .right h2{
+   font-size: 12px;
+   font-weight: 500;
+   color: #E4E4E4;
+}
+
+.Containerr .right h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #E4E4E4;
+}
+
+.Containerr .right p{
+   font-size: 21px;
+   font-weight: 400;
+   color: #B1B1B1;
+}
+
+.Containerr .right button{
+   padding: 15px 20px;
+   border: 2px solid #14A2F1;
+   color: #14A2F1;
+   border-radius: 50px;
+   background-color: transparent;
+   font-size: 14px;
+   font-weight: 700;
+}
+
+.Containerr .right{
+width: 50%;
+text-align: start; 
+padding-left: 30px;
+padding-top: 30px;
+}
+
+.Containerr  img{
+   border-radius: 20px;
+}
+
+
+.swiper-pagination-bullet
+{
+    color: white;
+    background: beige;
+    width: 30%;
+    background: white;
+    height: 8px;
+    border-radius: 0px;
+    margin-left: 8px !important;
+    border-radius: 20px;
+    
+}
+.swiper-pagination-bullet-active{
+  background-color: #14A2F1;
+   border-radius: 20px;
+   width: 30%;
+   
+   color: white;
+}
+.swiper-pagination{
+    width: 84% !important;
+    left: 110px !important;
+    
+}

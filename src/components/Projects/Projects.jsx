@@ -12,19 +12,64 @@ import image9 from '../../assets/img9.png';
 
 const Projects = () => {
   return (
-    <div className='logos'>
-        <div className=' logo-slide'>
-      <img src={image1} alt="Project 1" />
-      <img src={image2} alt="Project 2" />
-      <img src={image3} alt="Project 3" />
-      <img src={image4} alt="Project 4" />
-      <img src={image5} alt="Project 5" />
-      <img src={image6} alt="Project 6" />
-      <img src={image7} alt="Project 7" />
-      <img src={image8} alt="Project 8" />
-      <img src={image9} alt="Project 9" />
-      </div>
+<div class="slider">
+  <div class="slide-track">
+    <div class="slide">
+      <img src={image1} height="50" width="100" alt="" />
     </div>
+    <div class="slide">
+      <img src={image2} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image3} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image4} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image5} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image6} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image7} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image8} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image9} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image1} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image2} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image3} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image4} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image5} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image6} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image7} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image8} height="50" width="100" alt="" />
+    </div>
+    <div class="slide">
+      <img src={image9} height="50" width="100" alt="" />
+    </div>
+  </div>
+</div>
   );
 }
 

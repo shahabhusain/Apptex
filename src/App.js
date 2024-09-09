@@ -5,6 +5,7 @@ import Home from './components/Home';
 
 import ParticlesComponent from './components/particles';
 import Projects from './components/Projects/Projects';
+import RecentWork from './components/RecentWork/RecentWork';
 import Services from './components/Services/Services';
 
 function App() {
@@ -15,9 +16,13 @@ function App() {
       <Header />
       <Home />
       </div>
-      <Projects />
+        <div className='bac'>
+        <Projects />
+        <About />
+        </div>
       <Services />
-      <About />
+      <RecentWork />
+   
     </div>
   );
 }
