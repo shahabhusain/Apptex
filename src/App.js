@@ -21,12 +21,12 @@ function App() {
         <div className='bac'>
         <Projects />
         <About />
-        </div>
+        
       <Services />
       <RecentWork />
       <Indutry />
       <Clients />
-   
+      </div>
     </div>
   );
 }

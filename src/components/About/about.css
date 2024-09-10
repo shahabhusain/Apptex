@@ -1,5 +1,4 @@
-.box{
-}
+
 
 .Container{
     display: flex;
@@ -8,6 +7,8 @@
     width: 90%;
     margin: auto;
     gap: 22px;
+    background-color: #0E0E0E;
+    padding: 20px 0 20px 0px;
 }
 
 .Container .right{
@@ -16,7 +17,7 @@
 }
 
 .Container .left{
-    width: 60%;
+    width: 50%;
     text-align: start;
 }
 

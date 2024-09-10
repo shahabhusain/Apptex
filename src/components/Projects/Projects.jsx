@@ -15,58 +15,58 @@ const Projects = () => {
 <div class="slider">
   <div class="slide-track">
     <div class="slide">
-      <img src={image1} height="50" width="100" alt="" />
+      <img src={image1} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image2} height="50" width="100" alt="" />
+      <img src={image2} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image3} height="50" width="100" alt="" />
+      <img src={image3} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image4} height="50" width="100" alt="" />
+      <img src={image4} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image5} height="50" width="100" alt="" />
+      <img src={image5} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image6} height="50" width="100" alt="" />
+      <img src={image6} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image7} height="50" width="100" alt="" />
+      <img src={image7} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image8} height="50" width="100" alt="" />
+      <img src={image8} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image9} height="50" width="100" alt="" />
+      <img src={image9} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image1} height="50" width="100" alt="" />
+      <img src={image1} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image2} height="50" width="100" alt="" />
+      <img src={image2} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image3} height="50" width="100" alt="" />
+      <img src={image3} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image4} height="50" width="100" alt="" />
+      <img src={image4} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image5} height="50" width="100" alt="" />
+      <img src={image5} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image6} height="50" width="100" alt="" />
+      <img src={image6} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image7} height="50" width="100" alt="" />
+      <img src={image7} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image8} height="50" width="100" alt="" />
+      <img src={image8} height="40" width="100" alt="" />
     </div>
     <div class="slide">
-      <img src={image9} height="50" width="100" alt="" />
+      <img src={image9} height="40" width="100" alt="" />
     </div>
   </div>
 </div>

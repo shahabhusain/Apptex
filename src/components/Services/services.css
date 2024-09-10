@@ -19,6 +19,7 @@
     align-items: start;
     position: sticky !important;
     top: 30px;
+    line-height: 100%;
 
 }
 
@@ -54,13 +55,14 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    background: #171717f7;
+    background: #FFFFFF0D;
     padding: 20px 40px;
     border: 2px solid #dad9d918;
     border-radius: 5px;
     align-items: start;
     position: sticky;
     top: 30px;
+    line-height: 0%;
 }
 
 .contain1 .div1 .title1{
