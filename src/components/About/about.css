@@ -1,14 +1,20 @@
-
+.box{
+    background-image: url(../../assets/Our\ Services.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .Container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+   width: 80%;
     margin: auto;
     gap: 22px;
-    background-color: #0E0E0E;
-    padding: 20px 0 20px 0px;
+    padding-top: 42px;
+    height: 355px;
+   
 }
 
 .Container .right{
@@ -17,7 +23,7 @@
 }
 
 .Container .left{
-    width: 50%;
+    width: 60%;
     text-align: start;
 }
 

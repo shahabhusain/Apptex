@@ -55,7 +55,10 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    background: #FFFFFF0D;
+    background: url(../../assets/Component\ 22.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 20px 40px;
     border: 2px solid #dad9d918;
     border-radius: 5px;
