@@ -2,7 +2,7 @@
 .Containerr{
  display: flex;
  justify-content: space-between;
- width: 80%;
+ width: 90%;
  height: 70vh;
  margin: auto;
  background-color: #171717;
@@ -69,8 +69,8 @@ margin-top: 182px;
 .Containerr .right{
 width: 50%;
 text-align: start; 
-padding-left: 30px;
-padding-top: 30px;
+padding-left: 60px;
+padding-top: 50px;
 }
 
 .Containerr  img{
@@ -125,7 +125,7 @@ padding-top: 30px;
     align-items: center;
     justify-content: center;
     background-color: #171717;
-    width: 80%;
+    width: 90%;
     height: 70vh;
     margin: auto;
     border: 2px solid #dad9d918;
