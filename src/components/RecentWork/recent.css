@@ -1,18 +1,22 @@
+
 .Containerr{
  display: flex;
  justify-content: space-between;
- background-color: #171717f7;
  width: 80%;
+ height: 70vh;
  margin: auto;
- border: 2px solid #dad9d918;
+ background-color: #171717;
  border-radius: 20px;
 margin-bottom: 33px;
+margin-top: 182px;
 }
 
 .boxx .title {
    font-size: 48px;
    font-weight: 400;
    color: white;
+   position: sticky;
+   top: 70px;
 
 }
 
@@ -30,6 +34,8 @@ margin-bottom: 33px;
    font-weight: 700;
    color: #B1B1B1;
    margin-top: 122px;
+   position: sticky;
+   top: 30px;
 }
 
 .Containerr .right h2{
@@ -74,26 +80,29 @@ padding-top: 30px;
 
 .swiper-pagination-bullet
 {
-    color: white;
+    /* color: white;
     background: beige;
     width: 20%;
     background: white;
     height: 6px;
     border-radius: 0px;
     margin-left: 4px !important;
-    border-radius: 20px;
+    border-radius: 20px; */
+    display: none;
+    
     
 }
 .swiper-pagination-bullet-active{
-  background-color: #14A2F1;
+  /* background-color: #14A2F1;
    border-radius: 20px;
    width: 20%;
-   
-   color: white;
+   color: white; */
+   display: none;
 }
 .swiper-pagination{
-    width: 84% !important;
-    left: 110px !important;
+    /* width: 84% !important;
+    left: 110px !important; */
+    display: none;
     
 }
 
@@ -109,16 +118,21 @@ padding-top: 30px;
     margin-top: 200px;
     margin-bottom: 200px;
     cursor: pointer;
-   
 }
 
 .Containerrr{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #171717f7;
+    background-color: #171717;
     width: 80%;
+    height: 70vh;
     margin: auto;
     border: 2px solid #dad9d918;
     border-radius: 20px;
+    margin-top: 182px;
 }
+
+
+
+ 
