@@ -78,36 +78,35 @@
 }
 
 .conn .boc:hover, .conn .boc:hover p {
-    transform: scale(1.1);
     color: white;
 }
 
 .conn .boc:nth-child(1):hover {
     background-color: #DD730A;
-    box-shadow: 5px 0 5px 0 #FF860F;
+    box-shadow: 0 0 7px 7px #FF860F;
 }
 
 .conn .boc:nth-child(2):hover {
     background-color: #11B8FF;
-    box-shadow: 5px 0 5px 0 #1CBAFC80;
+    box-shadow: 0 0 7px 7px #1CBAFC80;
 }
 
 .conn .boc:nth-child(3):hover {
     background-color: #05E400;
-    box-shadow: 5px 0 5px 0 #05E40080;
+    box-shadow: 0 0 7px 7px #05E40080;
 }
 
 .conn .boc:nth-child(4):hover {
     background-color: #cec40c;
-    box-shadow: 5px 0 5px 0 #FFF62780;
+    box-shadow: 0 0 7px 7px #FFF62780;
 }
 
 .conn .boc:nth-child(5):hover {
     background-color: #DD0A7C;
-    box-shadow: 5px 0 5px 0 #DD0A7C80;
+    box-shadow: 0 0 7px 7px #DD0A7C80;
 }
 
 .conn .boc:nth-child(6):hover {
     background-color: #0AD0DD;
-    box-shadow: 5px 0 5px 0 #0AD0DD80;
+    box-shadow: 0 0 7px 7px #0AD0DD80;
 }
