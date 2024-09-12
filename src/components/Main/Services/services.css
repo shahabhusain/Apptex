@@ -1,0 +1,148 @@
+
+.contain{
+    display: flex;
+     justify-content: space-between;
+     width: 90%;
+     margin: auto;
+     padding-top: 102px;
+}
+
+.contain .right{
+    width: 30%; 
+}
+
+
+.contain .div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: start;
+    position: sticky !important;
+    top: 140px;
+    line-height: 100%;
+
+}
+
+.contain .div .title{
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+}
+
+.contain .div .para{
+    font-size: 14px;
+    font-weight: 400;
+    color: #B1B1B1;
+    text-align: start;
+}
+
+.contain .div .btn{
+    background-color: #161C27;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.contain1{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 60%;
+}
+
+.contain1 .div1 {
+    display: flex;
+    gap: 22px;
+    background: url(../../../assets/Component\ 22.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 40px;
+    border-radius: 5px;
+    align-items: start;
+    position: sticky;
+    top: 140px;
+    line-height: 0%;
+}
+
+.contain1 .div1 .title1{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-align: start;
+}
+
+.contain1 .div1 .contaents{
+    display: flex;
+     flex-direction: column;
+     gap: 6px;
+}
+
+.contain1 .div1 .para1{
+    font-size: 12px;
+    font-weight: 400;
+    color: #B1B1B1;
+    text-align: start;
+}
+
+.contain1 .div1 .btn1{
+    font-size: 12px;
+    font-weight: 700;
+    color: #14A2F1;
+    background: transparent;
+    border: none;
+    text-align: start;
+}
+
+
+
+@media screen and (max-width: 480px){
+    .contain{
+       display: flex;
+       flex-direction: column;
+       gap: 0;
+     
+      }
+
+      .contain .right{
+        width: 100%; 
+    }
+
+    .contain1{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .contain1 .div1{
+
+    }
+
+    .contain .div .title{
+        font-size: 44px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .contain1 .div1 img{
+        width: 70px;
+    }
+
+    .contain1 .div1 .para1{
+        font-size: 12px;
+        font-weight: 400;
+        color: #B1B1B1;
+        text-align: start;
+    }
+
+
+    .contain1 .div1{
+        line-height: 100%;
+        align-items: center;
+    }
+      
+ }
