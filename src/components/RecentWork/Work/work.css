@@ -1,0 +1,145 @@
+.worki{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    background-color: #000000;
+    padding: 50px 0px 50px 0px;
+    margin-top: 122px;
+}
+
+.Con22{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+   }
+   
+   
+   .Con22 .right2 h2{
+      font-size: 12px;
+      font-weight: 500;
+      color: #000000;
+   }
+   
+   .Con22 .right2 h1 {
+       font-size: 28px;
+       font-weight: 700;
+       color: #000000;
+   }
+   
+   .Con22 .right2 p{
+      font-size: 21px;
+      font-weight: 400;
+      color: #B1B1B1;
+   }
+   
+   .Con22 .right2 button{
+      padding: 15px 20px;
+      border: 2px solid #14A2F1;
+      color: #14A2F1;
+      border-radius: 50px;
+      background-color: transparent;
+      font-size: 14px;
+      font-weight: 700;
+   }
+   
+   .Con22 .right2{
+   width: 50%;
+   text-align: start; 
+   padding-left: 60px;
+   padding-top: 50px;
+   }
+   
+   .Con22  img{
+      border-radius: 20px;
+   }
+   
+   
+   
+   .Con22 h3 button{
+       padding: 15px 30px;
+       border: 2px solid #14A2F1;
+       border-radius: 50px;
+       color: #14A2F1;
+       font-size: 17px;
+       font-weight: 700;
+       background: transparent; 
+       margin-top: 200px;
+       margin-bottom: 200px;
+       cursor: pointer;
+   }
+   
+
+   
+   
+   /* @media screen and (max-width: 480px){
+      .Containerr{
+         display: flex;
+         flex-direction: column;
+         width: 90%;
+         align-items: center;
+         justify-content: center;
+        }
+   
+        .Containerr .righ{
+         display: none;
+        }
+   
+   
+        .boxx .title {
+         font-size: 38px;
+         font-weight: 400;
+         color: white;
+         position: sticky;
+         top: 125px;
+      
+      }
+   
+      
+      .boxx .recent{
+         font-size: 20px;
+         font-weight: 700;
+         color: #B1B1B1;
+         margin-top: 122px;
+         position: sticky;
+         top: 88px;
+      }
+      
+      .Containerr .right h2{
+         font-size: 12px;
+      }
+      
+      .Containerr .right h1 {
+          font-size: 22px;
+      }
+      
+      .Containerr .right p{
+         font-size: 17px;
+         max-width: 355px;
+      }
+      
+   
+      .Containerr .right{
+         width: 100%;
+      }
+      
+   
+   
+      .boxx .title {
+         position: sticky;
+         top: 85px;
+      
+      }
+      
+      .boxx .recent{
+         position: sticky;
+         top: 48px;
+      }
+        
+   } */
+   
+   
+    
