@@ -12,43 +12,43 @@
     margin: auto;
 }
 
-.founrr .right .Ameer{
+.founrr .rig .Ameer{
     width: 655px;
 }
 
-.founrr .right .hashim{
+.founrr .rig .hashim{
     width: 655px;
 }
 
-.founrr .right .contt h2{
+.founrr .rig .contt h2{
     font-size: 31px;
     color: #FFFFFF;
     font-weight: 700;
 }
 
-.founrr .right .contt h3{
+.founrr .rig .contt h3{
     font-size: 20px;
     font-weight: 700;
     color: #14A2F1;
 }
 
-.founrr .right .contt p{
+.founrr .rig .contt p{
     color: #E4E4E4;
     font-size: 16px;
     font-weight: 600;
 }
 
-.founrr .right .content{
+.founrr .rig .conu{
     display: flex;
     justify-content: space-between;
 }
 
-.founrr .right .content img{
+.founrr .rig .conu img{
     width: 50px;
     height: 50px;
 }
 
-.founrr .right .contt{
+.founrr .rig .contt{
     line-height: 40%;
     text-align: start;
 }

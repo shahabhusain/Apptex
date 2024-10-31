@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from "../../../assets/plogo.png";
-import right from "../../../assets/pro1.png";
+import right from "../../../assets/pro11.png";
 import './work.css'
+import { Link } from 'react-router-dom';
 const RecentWorks = () => {
   return (
     <div className='worki'>
@@ -15,7 +16,7 @@ const RecentWorks = () => {
                   management system Figma template designed for people who want
                   to start teaching online, create an LMS, etc.
                 </p>
-                <button>View case study</button>
+                <Link className='button' to="/askmid">View case study</Link>
               </div>
               <img className="righ2"  src={right} alt="" />
             </div>
@@ -31,7 +32,7 @@ const RecentWorks = () => {
                   management system Figma template designed for people who want
                   to start teaching online, create an LMS, etc.
                 </p>
-                <button>View case study</button>
+                <Link className='button' to="/askmid">View case study</Link>
               </div>
               <img className="righ2"  src={right} alt="" />
             </div>
@@ -47,7 +48,7 @@ const RecentWorks = () => {
                   management system Figma template designed for people who want
                   to start teaching online, create an LMS, etc.
                 </p>
-                <button>View case study</button>
+                <Link className='button' to="/askmid">View case study</Link>
               </div>
               <img className="righ2"  src={right} alt="" />
             </div>
@@ -63,7 +64,7 @@ const RecentWorks = () => {
                   management system Figma template designed for people who want
                   to start teaching online, create an LMS, etc.
                 </p>
-                <button>View case study</button>
+                <Link className='button' to="/askmid">View case study</Link>
               </div>
               <img className="righ2"  src={right} alt="" />
             </div>

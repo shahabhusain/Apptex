@@ -13,21 +13,22 @@
     justify-content: space-between;
     width: 90%;
     margin: auto;
-    background-color: #ffffff;
+    background-color: #0D1421;
     border-radius: 20px;
+    padding: 20px 0px 20px 0px;
    }
    
    
    .Con22 .right2 h2{
       font-size: 12px;
       font-weight: 500;
-      color: #000000;
+      color: #ffffff;
    }
    
    .Con22 .right2 h1 {
        font-size: 28px;
        font-weight: 700;
-       color: #000000;
+       color: #ffffff;
    }
    
    .Con22 .right2 p{
@@ -38,8 +39,8 @@
    
    .Con22 .right2 button{
       padding: 15px 20px;
-      border: 2px solid #14A2F1;
-      color: #14A2F1;
+      border: 2px solid #ffffff;
+      color: #ffffff;
       border-radius: 50px;
       background-color: transparent;
       font-size: 14px;
@@ -50,7 +51,6 @@
    width: 50%;
    text-align: start; 
    padding-left: 60px;
-   padding-top: 50px;
    }
    
    .Con22  img{
@@ -59,7 +59,7 @@
    
    
    
-   .Con22 h3 button{
+    .button{
        padding: 15px 30px;
        border: 2px solid #14A2F1;
        border-radius: 50px;
@@ -70,6 +70,9 @@
        margin-top: 200px;
        margin-bottom: 200px;
        cursor: pointer;
+       list-style: none;
+       text-decoration: none;
+       margin-top: 3px;
    }
    
 

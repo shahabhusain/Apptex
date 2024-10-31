@@ -1,0 +1,48 @@
+
+
+.backkk {
+    position: relative;
+    margin-bottom: 52px;
+}
+
+.backkk .title{
+    margin-top: 122px;
+    position: absolute;
+    top: 0;
+    left: 132px;
+    display: flex;
+    justify-content: space-between;
+    gap: 122px;
+}
+
+.backkk .title .context h1{
+   font-size: 55px;
+   font-weight: 600;
+   color: black;
+   max-width: 405px;
+}
+
+.backkk .title .context .span1{
+    color: #1F6CDD;
+ }
+
+ .backkk .title .context .span2{
+    color: #FC3030;
+ }
+
+ .backkk .title .context img{
+    width: 100px;
+ }
+
+ .backkk .title .context {
+     display: flex;
+     flex-direction: column;
+     text-align: start;
+     gap: 12px;
+ }
+
+ .backkk .title .img .main{
+    width: 800px;
+    margin-top: 36px;
+ }
+

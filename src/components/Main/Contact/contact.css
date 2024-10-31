@@ -109,7 +109,7 @@ textarea:focus {
     border: none;
     border-radius: 50%;
     background-color: #FFFFFF29;
-    animation: bounce 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite; /* Using cubic-bezier for bounce effect */
+    animation: bounce 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite; 
     position: absolute;
     top: 0;
 }
@@ -120,7 +120,7 @@ textarea:focus {
     border: none;
     border-radius: 50%;
     background-color: #FFFFFF29;
-    animation: bounce 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite; /* Using cubic-bezier for bounce effect */
+    animation: bounce 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite; 
     position: absolute;
     top: 320px;
     right: 0;
@@ -128,19 +128,19 @@ textarea:focus {
 
 @keyframes bounce {
     0% {
-        transform: translateX(0); /* Start position */
+        transform: translateX(0);
     }
     30% {
-        transform: translateX(30px); /* Moves to the right */
+        transform: translateX(30px); 
     }
     50% {
-        transform: translateX(-15px); /* Moves to the left */
+        transform: translateX(-15px);
     }
     70% {
-        transform: translateX(15px); /* Moves to the right */
+        transform: translateX(15px);
     }
     100% {
-        transform: translateX(0); /* Returns to start */
+        transform: translateX(0); 
     }
 }
 

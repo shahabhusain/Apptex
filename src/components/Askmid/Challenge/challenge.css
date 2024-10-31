@@ -1,0 +1,80 @@
+.bore{
+    background: #F8F8F8;
+    padding: 33px;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.bore .conten{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 280px;
+
+}
+
+.bore .conten .title{
+   font-size: 71px;
+   color: #000;
+   font-weight: 600;
+   text-align: start;
+}
+
+.bore .conten .title span{
+    font-size: 71px;
+    font-weight: 500;
+    color: #000;
+}
+
+.bore .conten .bacjj{
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    line-height: 30px;
+    padding: 30px;
+}
+
+.bore .conten .bacjj .text1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1F6CDD;
+}
+
+.bore .conten .bacjj .text2{
+    font-size: 17px;
+    font-weight: 500;
+    color: #515151; 
+    text-align: start;  
+}
+
+
+.count1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     text-align: start;
+     gap: 32px;
+}
+
+.count1 .bacjj{
+    background: #fff;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 30px;
+}
+
+.count1 .bacjj .text1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1F6CDD;
+}
+
+.count1 .bacjj .text2{
+    font-size: 17px;
+    font-weight: 500;
+    color: #515151; 
+    text-align: start;  
+}
